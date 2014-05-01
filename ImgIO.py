@@ -9,28 +9,40 @@ class ImgIO:
     value_list = []
     height = 0
     width = 0
+    image_name = "none.png"
 
     def __init__(self):
         value_list = []
         height = 0
         width = 0
+        image_name = "none.png"
 
     def read_image(self, image_name):  # image name --- xxx.ext
         im = Image.open(image_name).convert('LA')  # Can be many different formats.
         pix = im.load()
         self.width = im.size[0]
         self.height = im.size[1]
+        self.image_name = image_name
         for i in range(0, im.size[0]):
             for j in range(0, im.size[1]):
                 self.value_list.append(pix[i, j][0])
 
-    def write_image(self, image_name):
+    def write_image(self):
         im = Image.new('LA', (self.width, self.height))
         pix = im.load()
         for i in range(0, self.width):
             for j in range(0, self.height):
                 pix[i, j] = (self.value_list[i * self.height + j], 255)
-        im.save(image_name)
+        im.save(self.image_name)
+
+    def read_list(self, input_list, name, width, height):
+        if len(input_list) == 2 * width * height:
+            self.value_list = input_list
+            self.width = width
+            self.height = height
+            self.image_name = name
+        else:
+            print "Incorrect dimensions for specified image list"
 
 
 def main():  # test case
