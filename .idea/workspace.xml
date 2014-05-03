@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ImgIO.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ImgIO.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ImgIO.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="14" selection-start="216" selection-end="216" vertical-scroll-proportion="0.35747662" vertical-offset="0" max-vertical-offset="1088">
+            <state line="34" column="30" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,34 @@
       <file leaf-file-name="ImAdd.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ImAdd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+            <state line="16" column="0" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="629">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImSub.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ImSub.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="17" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="629">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImMult.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ImMult.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="44" selection-start="432" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImDiv.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ImDiv.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="24" selection-start="561" selection-end="561" vertical-scroll-proportion="0.71495324" vertical-offset="0" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -51,8 +78,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ImAdd.py" />
         <option value="$PROJECT_DIR$/ImgIO.py" />
+        <option value="$PROJECT_DIR$/ImSub.py" />
+        <option value="$PROJECT_DIR$/ImAdd.py" />
+        <option value="$PROJECT_DIR$/ImMult.py" />
+        <option value="$PROJECT_DIR$/ImDiv.py" />
       </list>
     </option>
   </component>
@@ -116,7 +146,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ImAdd.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ImDiv.py" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -261,7 +291,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ImPy" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ImAdd.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ImDiv.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -315,11 +345,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -341,6 +371,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ImgIO.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="14" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImAdd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ImgIO.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="57" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
@@ -390,9 +434,7 @@
     </entry>
     <entry file="file://C:/Program Files (x86)/Python27/Lib/site-packages/PIL/Image.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1422" column="0" selection-start="44603" selection-end="44603" vertical-scroll-proportion="0.81030446" vertical-offset="23777" max-vertical-offset="36210">
-          <folding />
-        </state>
+        <state line="1422" column="0" selection-start="44603" selection-end="44603" vertical-scroll-proportion="0.81030446" vertical-offset="23777" max-vertical-offset="36210" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -405,16 +447,37 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="11543" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImAdd.py">
+    <entry file="file://$PROJECT_DIR$/ImgIO.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+        <state line="34" column="30" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1088">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImgIO.py">
+    <entry file="file://$PROJECT_DIR$/ImAdd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="216" selection-end="216" vertical-scroll-proportion="0.35747662" vertical-offset="0" max-vertical-offset="1088">
+        <state line="16" column="0" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImSub.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImMult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="44" selection-start="432" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImDiv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="24" selection-start="561" selection-end="561" vertical-scroll-proportion="0.71495324" vertical-offset="0" max-vertical-offset="629">
           <folding />
         </state>
       </provider>

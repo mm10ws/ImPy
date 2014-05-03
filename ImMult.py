@@ -2,11 +2,11 @@ __author__ = 'Mayur Mehta'
 import ImgIO
 
 
-def add(image1, image2):  # add two images together
+def mult(image1, image2):  # multiply two images
     if image1.width == image2.width and image1.height == image2.height:
         return_list = []
         for i in range(0, len(image1.value_list)):
-            tmp = image1.value_list[i] + image2.value_list[i]
+            tmp = image1.value_list[i] * image2.value_list[i]
             if 0 <= tmp <= 255:
                 return_list.append(tmp)
             else:
@@ -22,10 +22,10 @@ def main():  # test case
     imb = ImgIO.ImgIO()
     ima.read_image("test.png")
     imb.read_image("new.png")
-    add_list = add(ima, imb)
+    mult_list = mult(ima, imb)
     imc = ImgIO.ImgIO()
-    imc.read_list(add_list, "final1.png", ima.width, ima.height)
-    imc.write_image("final1.png")
+    imc.read_list(mult_list, "final3.png", ima.width, ima.height)
+    imc.write_image("final3.png")
 
 
 if __name__ == '__main__':
