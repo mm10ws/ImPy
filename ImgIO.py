@@ -44,7 +44,10 @@ class ImgIO:
             self.height = height
             self.image_name = name
         else:
-            print "Incorrect dimensions for specified image list"
+            print "Incorrect dimensions for specified image list: "
+            print width
+            print height
+
 
 
 def main():  # test case
